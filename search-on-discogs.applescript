@@ -1,10 +1,17 @@
-# Search on Discogs
+#!/usr/bin/osascript
 
-Search current track from Apple Music on discogs.com
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Search on Discogs
+# @raycast.mode compact
 
-AppleScript to use it for Raycast or Shortcuts
+# Optional parameters:
+# @raycast.icon ??
 
-```applescript
+# Documentation:
+# @raycast.author FL0R1AN
+# @raycast.authorURL https://raycast.com/FL0R1AN
+
 tell application "Music"
 	set musicArtist to {artist} of current track
 	set musicName to {name} of current track
@@ -14,4 +21,4 @@ tell application "Music"
 		end tell
 	end tell
 end tell
-```
+
