@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 
+# @raycast.icon images/apple-music-logo.png
 
 # Documentation:
 # @raycast.author FL0R1AN
@@ -17,7 +17,7 @@ tell application "Music"
 	set musicName to {name} of current track
 	tell application "Safari"
 		activate
-			open location "https://www.discogs.com/search?q=" & musicArtist & "+" & musicName
+			open location "https://www.discogs.com/search?q=" & musicArtist & "+" & musicName})
 	end tell
 end tell
 
