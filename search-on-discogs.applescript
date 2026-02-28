@@ -6,7 +6,8 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon images/apple-music-logo.png
+# @raycast.icon images/discogs-record-icon.png
+# @raycast.iconDark images/discogs-record-icon_dark.png
 
 # Documentation:
 # @raycast.author FL0R1AN
