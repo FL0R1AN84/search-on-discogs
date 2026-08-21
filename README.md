@@ -1,30 +1,26 @@
 # Search on Discogs
 
-Search current track from Apple Music on discogs.com
+# Search on Discogs
 
-AppleScript to use it for Raycast or Shortcuts ([iCloud Link](https://www.icloud.com/shortcuts/318cd6d2c0134c49b5774b1ada4ae0ed "iCloud Link"))
+A [Raycast](https://raycast.com) extension that searches for the currently playing track in the Music app on [Discogs](https://www.discogs.com).
 
-```applescript
-tell application "Music"
- set musicArtist to artist of current track
- set musicName to name of current track
- 
--- Remove unwanted characters from the artist name
- set musicArtist to my replace(" & ", " ", musicArtist)
- set musicArtist to my replace(";", "", musicArtist)
- 
- tell application "Safari"
-  activate
-  open location "https://www.discogs.com/search?q=" & musicArtist & "+" & musicName
- end tell
-end tell
+## Usage
 
-on replace(oldText, newText, sourceText)
- set {oldTIDs, AppleScript's text item delimiters} to {AppleScript's text item delimiters, oldText}
- set sourceText to text items of sourceText
- set AppleScript's text item delimiters to newText
- set sourceText to sourceText as text
- set AppleScript's text item delimiters to oldTIDs
- return sourceText
-end replace
+1. Play a track in the Music app.
+2. Run the **Search on Discogs** command in Raycast.
+3. Your default browser opens a Discogs search for the artist and track name.
+
+## Development
+
+```bash
+npm install
+npm run dev
 ```
+
+- `npm run build` – build the extension
+- `npm run lint` – lint the extension
+
+## AppleScript / Shortcuts version
+
+If you'd rather use this outside of Raycast (e.g. with Shortcuts or Script Editor), the standalone script is available in [`search-on-discogs.applescript`](search-on-discogs.applescript) ([iCloud Shortcut](https://www.icloud.com/shortcuts/318cd6d2c0134c49b5774b1ada4ae0ed "iCloud Link")).
+
