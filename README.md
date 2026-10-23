@@ -1,6 +1,6 @@
 # Search on Discogs
 
-[![Raycast Store](https://img.shields.io/badge/Raycast-Store-red?logo=raycast&logoColor=white)](https://raycast.com/FL0R1AN/search-on-discogs)
+[![Raycast Store](https://img.shields.io/badge/Raycast-Store-red?logo=raycast&logoColor=white)](https://www.raycast.com/vigosan/discogs)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/FL0R1AN84/search-on-discogs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
