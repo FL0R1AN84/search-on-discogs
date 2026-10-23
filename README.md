@@ -6,6 +6,8 @@
 
 A [Raycast](https://raycast.com) extension that searches for the currently playing track in the Music app on [Discogs](https://www.discogs.com).
 
+My work on this project has been integrated into the [Discogs Database Search](https://www.raycast.com/vigosan/discogs) Raycast extension as the **Search Current Music Track** command.
+
 ## Features
 
 - 🎵 Reads the artist and track name of the song currently playing in the Music app.
@@ -17,8 +19,8 @@ A [Raycast](https://raycast.com) extension that searches for the currently playi
 
 ### From the Raycast Store
 
-Search for **Search on Discogs** in the [Raycast Store](https://raycast.com/store) and install it, or use this direct
-link once it's published: [raycast.com/FL0R1AN/search-on-discogs](https://raycast.com/FL0R1AN/search-on-discogs).
+Install [**Discogs Database Search**](https://www.raycast.com/vigosan/discogs) from the Raycast Store, then run its
+**Search Current Music Track** command to search for the currently playing Apple Music track.
 
 ### From source
 
@@ -59,7 +61,7 @@ npm run lint        # lint the extension
 
 If you'd rather use this outside of Raycast (e.g. with Shortcuts or Script Editor), the standalone script is
 available in [`search-on-discogs.applescript`](search-on-discogs.applescript)
-([iCloud Shortcut](https://www.icloud.com/shortcuts/318cd6d2c0134c49b5774b1ada4ae0ed "iCloud Link")).
+([iCloud Shortcut](https://www.icloud.com/shortcuts/318cd6d2c0134c49b5774b1ada4ae0ed 'iCloud Link')).
 
 ## License
 
